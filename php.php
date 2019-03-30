@@ -16,6 +16,21 @@ $bmi = $gewicht/($afgerond*$afgerond);
 
 echo "<br>";
 echo "bmi=".round($bmi);
+
+switch($bmi){
+case 'variable':
+  echo "<div id=black></div>";
+  break;
+case 'variable':
+  echo "rood";
+  break;
+  case 'variable':
+  echo "groen";
+    break;
 }
+
+}
+
+
 
 ?>
